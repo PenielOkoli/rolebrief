@@ -1,0 +1,82 @@
+{
+  "date": "2026-11-10",
+  "url": "https://rolebrief-beta.vercel.app",
+  "scenarios": [
+    {
+      "scenario": "Missing requirements",
+      "exportEnabled": false,
+      "checkboxes": 0,
+      "tables": 1,
+      "fullRecovery": false,
+      "escapedText": false
+    },
+    {
+      "scenario": "Incomplete task",
+      "exportEnabled": false,
+      "checkboxes": 4,
+      "tables": 0,
+      "fullRecovery": false,
+      "escapedText": false
+    },
+    {
+      "scenario": "Empty evidence",
+      "exportEnabled": false,
+      "checkboxes": 0,
+      "tables": 1,
+      "fullRecovery": false,
+      "escapedText": false
+    },
+    {
+      "scenario": "Duplicate IDs",
+      "exportEnabled": false,
+      "checkboxes": 0,
+      "tables": 1,
+      "fullRecovery": false,
+      "escapedText": false
+    },
+    {
+      "scenario": "Unexpected field",
+      "exportEnabled": false,
+      "checkboxes": 0,
+      "tables": 0,
+      "fullRecovery": true,
+      "escapedText": false
+    },
+    {
+      "scenario": "Wrong locale",
+      "exportEnabled": false,
+      "checkboxes": 0,
+      "tables": 0,
+      "fullRecovery": true,
+      "escapedText": false
+    },
+    {
+      "scenario": "Truncated JSON",
+      "exportEnabled": false,
+      "checkboxes": 0,
+      "tables": 0,
+      "fullRecovery": true,
+      "escapedText": false
+    },
+    {
+      "scenario": "Unverified quote",
+      "exportEnabled": false,
+      "checkboxes": 0,
+      "tables": 1,
+      "fullRecovery": false,
+      "escapedText": false
+    },
+    {
+      "scenario": "HTML-like text",
+      "exportEnabled": true,
+      "checkboxes": 4,
+      "tables": 1,
+      "fullRecovery": false,
+      "escapedText": true
+    }
+  ],
+  "checklist": "0 to 1 confirmed",
+  "jsonInspector": "verified",
+  "export": "downloaded and provenance verified",
+  "liveBrowser": "AI-generated brief, Structure verified, en-NG"
+}

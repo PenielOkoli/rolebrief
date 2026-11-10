@@ -28,6 +28,7 @@ test('valid data renders requirement cards, checkboxes, and a real task table', 
   assert.equal(decode('Valid sample').status, 'valid');
   assert.equal((html.match(/class="requirement"/g) || []).length, 4);
   assert.equal((html.match(/type="checkbox"/g) || []).length, 4);
+  assert.equal((html.match(/Illustrative example only:/g) || []).length, 4);
   assert.match(html, /<table>/); assert.match(html, /Junior Frontend Developer/);
 });
 for (const name of ['Unexpected field', 'Wrong locale', 'Truncated JSON']) test(`${name} rejects the envelope and renders full recovery`, () => {

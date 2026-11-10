@@ -15,6 +15,8 @@ Paste a job description to get source-backed requirement cards, a checklist for 
 - [Typed rendering components](src/components/brief-view.tsx)
 - [Rendering and boundary tests](tests/rendering.test.tsx)
 
+Verified: TypeScript, 22 automated tests, production build, browser recovery/checklist/export interactions, mobile layout, and real Groq output in en-NG and en-GB. The repository is connected to its own Vercel project and automatic deployment has succeeded. See the evidence for the earlier provider failures and the strict validation/retry handling added in response.
+
 ## Run
 
 Use Node.js 22.x. Run `npm ci`, `npm run dev`, and `npm run check` (TypeScript, tests, production build). Set `GROQ_API_KEY` on the server to enable live analysis; without it the labeled example and validation lab remain available. Never commit secrets or put them in a `NEXT_PUBLIC_` variable.
