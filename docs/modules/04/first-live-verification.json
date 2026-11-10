@@ -1,0 +1,68 @@
+{
+  "checkedAt": "2026-11-10T02:13:35.845Z",
+  "url": "https://rolebrief-beta.vercel.app",
+  "liveRequested": true,
+  "passed": false,
+  "checks": [
+    {
+      "name": "/",
+      "status": 200,
+      "expected": 200,
+      "passed": true
+    },
+    {
+      "name": "/schema",
+      "status": 200,
+      "expected": 200,
+      "passed": true
+    },
+    {
+      "name": "invalid request",
+      "status": 400,
+      "expected": 400,
+      "passed": true
+    },
+    {
+      "name": "malformed JSON",
+      "status": 400,
+      "expected": 400,
+      "passed": true
+    },
+    {
+      "name": "wrong media type",
+      "status": 415,
+      "expected": 415,
+      "passed": true
+    },
+    {
+      "name": "oversized body",
+      "status": 413,
+      "expected": 413,
+      "passed": true
+    },
+    {
+      "name": "foreign origin",
+      "status": 403,
+      "expected": 403,
+      "passed": true
+    },
+    {
+      "name": "live analysis",
+      "locale": "en-NG",
+      "status": 422,
+      "source": null,
+      "validation": "invalid",
+      "rendering": false,
+      "passed": false
+    },
+    {
+      "name": "live analysis",
+      "locale": "en-GB",
+      "status": 200,
+      "source": "groq",
+      "validation": "valid",
+      "rendering": true,
+      "passed": true
+    }
+  ]
+}
